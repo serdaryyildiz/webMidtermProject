@@ -37,7 +37,7 @@
                         <div class="currencies-box">    <!--Currencies-->
                             <img src="./images/dollarsign.png" class="currencies-logo">
                             <span class="currencies-text"><strong><p>28,6148 ₺</p></strong></span>
-                            <img src="./images/increase.png" class="currencies-status">
+                            <img src="./images/decrease.png" class="currencies-status">
                         </div>
                         <div class="currencies-box">
                             <img src="./images/eurosign.png" class="currencies-logo">
@@ -59,7 +59,7 @@
                         <div class="currencies-box">
                             <img src="./images/larisign.png" class="currencies-logo">
                             <span class="currencies-text"><strong><p>10,1723 ₺</p></strong></span>
-                            <img src="./images/increase.png" class="currencies-status">
+                            <img src="./images/decrease.png" class="currencies-status">
                         </div>
                         <div class="currencies-box">
                             <img src="./images/goldbarsign.png" class="currencies-logo">
@@ -95,8 +95,12 @@
                         <p>We kindly ask you to fill out the survey so that we can determine the universities where we have the most customers. In this way, you can help us organize special university-based campaigns and events</p>
                     </div>
                     <div class="input-holder">
-                        <p>Name : </p> <input type="text" placeholder="Enter your name">
-                        <p>Surname : </p> <input type="text" placeholder="Enter your surname">
+                        <div class="input">
+                            <p>Name : </p> <input type="text" placeholder="Enter your name">
+                        </div>
+                        <div class="input">
+                            <p>Surname : </p> <input type="text" placeholder="Enter your surname">
+                        </div>
                     </div>
                     <div class="select-holder">
                         <p>Please select your university </p>
@@ -140,19 +144,16 @@
                 </div>
                 <div class="right-side-border"> <!--Wallet , balance info section-->      
                         <div class="balance-box">
-                            <div class="about-balance">
-                                <div class="balance-text">
-                                    <div class="balance-row">
-                                        <img src="./images/balance.png" alt="balance-icon"> 
-                                        <strong><i><p class="balance">Current Balance</p></i></strong><br>
-                                        <img src="./images/balance.png" alt="balance-icon"> 
+                                    <div class="balance-text">
+                                        <div class="balance-row">
+                                            <img src="./images/balance.png" alt="balance-icon"> 
+                                            <strong><i><p class="balance">Current Balance</p></i></strong><br>
+                                            <img src="./images/balance.png" alt="balance-icon"> 
+                                        </div> 
                                     </div>
-                                    
-                                </div>
-                                <div class="balance-text">
-                                    <strong><p id="current-balance">7.846 ₺</p></strong>
-                                </div>
-                            </div>
+                                    <div class="balance-text">
+                                        <strong><p id="current-balance">7.846 ₺</p></strong>
+                                    </div>
                         </div>
                 </div>
             </div>

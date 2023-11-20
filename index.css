@@ -48,7 +48,6 @@ textarea {
 .navbar-items {
     display: flex;
     align-items: center;
-    justify-content: end;
     height: 100%;
 }
 
@@ -74,11 +73,6 @@ textarea {
     max-width: 90%;
     max-height: 90%;
     margin: 0 1rem;
-}
-
-#navbar-avatar { /* Avatar's width & height was a lot bigger , so i had to re-shype it again */
-    max-width: 40%;
-    max-height: 40%;
 }
 
 .logo {
@@ -236,17 +230,6 @@ textarea {
 }
 
 /* Balance Info Border */
-
-
-.about-balance{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-
-.balance-holder {
-    display: block;
-}
 
 .balance-row{
     display: flex;
@@ -535,7 +518,7 @@ input[type=submit]:hover {
     color: whitesmoke;
 }
 
-/* Social Media */
+/* Social Media Section*/
 
 .connect-us{
     background-color: #909090;
@@ -555,11 +538,6 @@ input[type=submit]:hover {
 .social-media img {
     width: 2rem;
     height: 2rem;
-}
-
-#smaller-logo{      /* instagram-logo.png was a little bigger than others */
-    width: 4rem;
-    height: 4rem;
 }
 
 
