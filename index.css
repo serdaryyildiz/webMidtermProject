@@ -574,8 +574,6 @@ input[type=submit]:hover {
         margin-right: 0;
     }
 
-
-
     .currencies-holder {
         display: flex;
         flex-direction: column;
@@ -623,7 +621,6 @@ input[type=submit]:hover {
     .currencies-box{
         border-style: none;
     }
-
 }
 
 
@@ -791,5 +788,9 @@ input[type=submit]:hover {
     .about-balance img {
         width: 10%;
         height: 10%;
+    }
+
+    .navbar-items img {
+        display: none;
     }
 }
