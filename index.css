@@ -195,8 +195,6 @@ textarea {
     margin: 2rem;
     border-radius: 1.5rem;
     background-color: #e7ddf3;
-    display: flex;
-    align-items: center;
     height: 12rem;
 }
 
@@ -597,6 +595,7 @@ input[type=submit]:hover {
 
     .border-holder {
         display: flex;
+        align-items: center;
     }
 
     .currencies-row{
